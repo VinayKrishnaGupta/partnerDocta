@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    CGRect screenBounds = [[UIScreen mainScreen] bounds];
+    
+    UIWindow *window = [[UIWindow alloc] initWithFrame:screenBounds];
+    
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    LoginViewController *loginVc = [[LoginViewController alloc]initWithNibName:@"LoginViewController" bundle:nil];
+    UINavigationController *nav = [[UINavigationController alloc]initWithRootViewController:loginVc];
+    [window setRootViewController:nav];
+    [window makeKeyAndVisible];
+    
+    [self setWindow:window];
+    
+    
     return YES;
 }
 
