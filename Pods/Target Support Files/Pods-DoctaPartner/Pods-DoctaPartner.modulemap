@@ -1,0 +1,6 @@
+framework module Pods_DoctaPartner {
+  umbrella header "Pods-DoctaPartner-umbrella.h"
+
+  export *
+  module * { export * }
+}
