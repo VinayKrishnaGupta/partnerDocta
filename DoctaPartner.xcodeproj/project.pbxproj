@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1ADC1167452B399D460A810E /* Pods_DoctaPartnerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B44698E2A10F239AC05BCA /* Pods_DoctaPartnerUITests.framework */; };
 		2FA53B3F1F0A14A700401F9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA53B3E1F0A14A700401F9C /* main.m */; };
 		2FA53B421F0A14A700401F9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA53B411F0A14A700401F9C /* AppDelegate.m */; };
 		2FA53B451F0A14A700401F9C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA53B441F0A14A700401F9C /* ViewController.m */; };
@@ -19,6 +20,9 @@
 		2FA53B751F0A3D0F00401F9C /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA53B731F0A3D0F00401F9C /* LoginViewController.xib */; };
 		2FA53B791F0A593F00401F9C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA53B771F0A593F00401F9C /* SignUpViewController.m */; };
 		2FA53B7A1F0A593F00401F9C /* SignUpViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FA53B781F0A593F00401F9C /* SignUpViewController.xib */; };
+		2FA53B7E1F0B604500401F9C /* DoctaManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA53B7D1F0B604500401F9C /* DoctaManager.m */; };
+		C3F43A909FFF74EB9ABEE81A /* Pods_DoctaPartnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45ACFFF781F808F32501F655 /* Pods_DoctaPartnerTests.framework */; };
+		DD7B0C9EA1678121257E6E8E /* Pods_DoctaPartner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E456153FE2E163AA0310EF06 /* Pods_DoctaPartner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,18 @@
 		2FA53B761F0A593F00401F9C /* SignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
 		2FA53B771F0A593F00401F9C /* SignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
 		2FA53B781F0A593F00401F9C /* SignUpViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpViewController.xib; sourceTree = "<group>"; };
+		2FA53B7C1F0B604500401F9C /* DoctaManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctaManager.h; sourceTree = "<group>"; };
+		2FA53B7D1F0B604500401F9C /* DoctaManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctaManager.m; sourceTree = "<group>"; };
+		2FA53B7F1F0B61D800401F9C /* DoctaSharedValues.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoctaSharedValues.pch; sourceTree = "<group>"; };
+		40B44698E2A10F239AC05BCA /* Pods_DoctaPartnerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctaPartnerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45ACFFF781F808F32501F655 /* Pods_DoctaPartnerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctaPartnerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF431754DA4F69797654CE5 /* Pods-DoctaPartnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctaPartnerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctaPartnerTests/Pods-DoctaPartnerTests.release.xcconfig"; sourceTree = "<group>"; };
+		673896BCE4BF49CA5192EDF5 /* Pods-DoctaPartner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctaPartner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctaPartner/Pods-DoctaPartner.debug.xcconfig"; sourceTree = "<group>"; };
+		677F4086716F8393E848E616 /* Pods-DoctaPartnerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctaPartnerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctaPartnerUITests/Pods-DoctaPartnerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		81A9B58BACF1384E126EF887 /* Pods-DoctaPartner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctaPartner.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoctaPartner/Pods-DoctaPartner.release.xcconfig"; sourceTree = "<group>"; };
+		DE0108CC18636AE354C685A7 /* Pods-DoctaPartnerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctaPartnerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctaPartnerTests/Pods-DoctaPartnerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E456153FE2E163AA0310EF06 /* Pods_DoctaPartner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoctaPartner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5E97A5901FA84EADA95FF46 /* Pods-DoctaPartnerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoctaPartnerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoctaPartnerUITests/Pods-DoctaPartnerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD7B0C9EA1678121257E6E8E /* Pods_DoctaPartner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3F43A909FFF74EB9ABEE81A /* Pods_DoctaPartnerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1ADC1167452B399D460A810E /* Pods_DoctaPartnerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +114,8 @@
 				2FA53B561F0A14A800401F9C /* DoctaPartnerTests */,
 				2FA53B611F0A14A800401F9C /* DoctaPartnerUITests */,
 				2FA53B3B1F0A14A700401F9C /* Products */,
+				DE773250B26CFB7EF3683B64 /* Pods */,
+				559F793271E4272ABC2A4C0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,9 +132,8 @@
 		2FA53B3C1F0A14A700401F9C /* DoctaPartner */ = {
 			isa = PBXGroup;
 			children = (
+				2FA53B7B1F0B5FA000401F9C /* Common */,
 				2FA53B701F0A3CEE00401F9C /* Authorization */,
-				2FA53B401F0A14A700401F9C /* AppDelegate.h */,
-				2FA53B411F0A14A700401F9C /* AppDelegate.m */,
 				2FA53B431F0A14A700401F9C /* ViewController.h */,
 				2FA53B441F0A14A700401F9C /* ViewController.m */,
 				2FA53B461F0A14A700401F9C /* Main.storyboard */,
@@ -164,6 +184,41 @@
 			name = Authorization;
 			sourceTree = "<group>";
 		};
+		2FA53B7B1F0B5FA000401F9C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2FA53B401F0A14A700401F9C /* AppDelegate.h */,
+				2FA53B411F0A14A700401F9C /* AppDelegate.m */,
+				2FA53B7C1F0B604500401F9C /* DoctaManager.h */,
+				2FA53B7D1F0B604500401F9C /* DoctaManager.m */,
+				2FA53B7F1F0B61D800401F9C /* DoctaSharedValues.pch */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		559F793271E4272ABC2A4C0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E456153FE2E163AA0310EF06 /* Pods_DoctaPartner.framework */,
+				45ACFFF781F808F32501F655 /* Pods_DoctaPartnerTests.framework */,
+				40B44698E2A10F239AC05BCA /* Pods_DoctaPartnerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE773250B26CFB7EF3683B64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				673896BCE4BF49CA5192EDF5 /* Pods-DoctaPartner.debug.xcconfig */,
+				81A9B58BACF1384E126EF887 /* Pods-DoctaPartner.release.xcconfig */,
+				DE0108CC18636AE354C685A7 /* Pods-DoctaPartnerTests.debug.xcconfig */,
+				4AF431754DA4F69797654CE5 /* Pods-DoctaPartnerTests.release.xcconfig */,
+				E5E97A5901FA84EADA95FF46 /* Pods-DoctaPartnerUITests.debug.xcconfig */,
+				677F4086716F8393E848E616 /* Pods-DoctaPartnerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FA53B671F0A14A800401F9C /* Build configuration list for PBXNativeTarget "DoctaPartner" */;
 			buildPhases = (
+				B65FA90BD1925FC5C0A3C390 /* [CP] Check Pods Manifest.lock */,
 				2FA53B361F0A14A700401F9C /* Sources */,
 				2FA53B371F0A14A700401F9C /* Frameworks */,
 				2FA53B381F0A14A700401F9C /* Resources */,
+				94488F6FED106CB879EA242A /* [CP] Embed Pods Frameworks */,
+				03D8C8B0020B868AAFE95556 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -188,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FA53B6A1F0A14A800401F9C /* Build configuration list for PBXNativeTarget "DoctaPartnerTests" */;
 			buildPhases = (
+				F679666F99A58D32D7E33B79 /* [CP] Check Pods Manifest.lock */,
 				2FA53B4F1F0A14A800401F9C /* Sources */,
 				2FA53B501F0A14A800401F9C /* Frameworks */,
 				2FA53B511F0A14A800401F9C /* Resources */,
+				AC2E85BB3BBF600A4DE7BDB7 /* [CP] Embed Pods Frameworks */,
+				C230F0C4852CAC6072A993FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FA53B6D1F0A14A800401F9C /* Build configuration list for PBXNativeTarget "DoctaPartnerUITests" */;
 			buildPhases = (
+				ABAC79651121DAD949707554 /* [CP] Check Pods Manifest.lock */,
 				2FA53B5A1F0A14A800401F9C /* Sources */,
 				2FA53B5B1F0A14A800401F9C /* Frameworks */,
 				2FA53B5C1F0A14A800401F9C /* Resources */,
+				278662F279933BF538F4850E /* [CP] Embed Pods Frameworks */,
+				137D65D845601E5F3DABBFE1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,6 +361,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03D8C8B0020B868AAFE95556 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctaPartner/Pods-DoctaPartner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		137D65D845601E5F3DABBFE1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctaPartnerUITests/Pods-DoctaPartnerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		278662F279933BF538F4850E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctaPartnerUITests/Pods-DoctaPartnerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94488F6FED106CB879EA242A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctaPartner/Pods-DoctaPartner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ABAC79651121DAD949707554 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC2E85BB3BBF600A4DE7BDB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctaPartnerTests/Pods-DoctaPartnerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B65FA90BD1925FC5C0A3C390 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C230F0C4852CAC6072A993FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoctaPartnerTests/Pods-DoctaPartnerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F679666F99A58D32D7E33B79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FA53B361F0A14A700401F9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -305,6 +507,7 @@
 				2FA53B741F0A3D0F00401F9C /* LoginViewController.m in Sources */,
 				2FA53B791F0A593F00401F9C /* SignUpViewController.m in Sources */,
 				2FA53B451F0A14A700401F9C /* ViewController.m in Sources */,
+				2FA53B7E1F0B604500401F9C /* DoctaManager.m in Sources */,
 				2FA53B421F0A14A700401F9C /* AppDelegate.m in Sources */,
 				2FA53B3F1F0A14A700401F9C /* main.m in Sources */,
 			);
@@ -390,6 +593,7 @@
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -437,6 +641,7 @@
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -453,9 +658,13 @@
 		};
 		2FA53B681F0A14A800401F9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 673896BCE4BF49CA5192EDF5 /* Pods-DoctaPartner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XVB5V247FL;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/rstintl/Desktop/Xcode/DoctaPartner/DoctaPartner/DoctaSharedValues.pch;
 				INFOPLIST_FILE = DoctaPartner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -466,9 +675,13 @@
 		};
 		2FA53B691F0A14A800401F9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A9B58BACF1384E126EF887 /* Pods-DoctaPartner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XVB5V247FL;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/rstintl/Desktop/Xcode/DoctaPartner/DoctaPartner/DoctaSharedValues.pch;
 				INFOPLIST_FILE = DoctaPartner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -479,6 +692,7 @@
 		};
 		2FA53B6B1F0A14A800401F9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0108CC18636AE354C685A7 /* Pods-DoctaPartnerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = MXU6HC5F88;
@@ -492,6 +706,7 @@
 		};
 		2FA53B6C1F0A14A800401F9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AF431754DA4F69797654CE5 /* Pods-DoctaPartnerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = MXU6HC5F88;
@@ -505,6 +720,7 @@
 		};
 		2FA53B6E1F0A14A800401F9C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5E97A5901FA84EADA95FF46 /* Pods-DoctaPartnerUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MXU6HC5F88;
 				INFOPLIST_FILE = DoctaPartnerUITests/Info.plist;
@@ -517,6 +733,7 @@
 		};
 		2FA53B6F1F0A14A800401F9C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 677F4086716F8393E848E616 /* Pods-DoctaPartnerUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = MXU6HC5F88;
 				INFOPLIST_FILE = DoctaPartnerUITests/Info.plist;
@@ -546,6 +763,7 @@
 				2FA53B691F0A14A800401F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FA53B6A1F0A14A800401F9C /* Build configuration list for PBXNativeTarget "DoctaPartnerTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +772,7 @@
 				2FA53B6C1F0A14A800401F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2FA53B6D1F0A14A800401F9C /* Build configuration list for PBXNativeTarget "DoctaPartnerUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +781,7 @@
 				2FA53B6F1F0A14A800401F9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -18,6 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationItem.title = @"Log In";
     // Do any additional setup after loading the view from its nib.
 }
 
